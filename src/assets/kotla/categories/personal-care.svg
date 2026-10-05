@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#AE42EA"/><stop offset=".55" stop-color="#EA42B7"/><stop offset="1" stop-color="#FF7A78"/></linearGradient>
+    <linearGradient id="bottle" x1="220" y1="145" x2="337" y2="345" gradientUnits="userSpaceOnUse"><stop stop-color="#FF758A"/><stop offset="1" stop-color="#EF355F"/></linearGradient>
+    <linearGradient id="bottle2" x1="343" y1="178" x2="435" y2="345" gradientUnits="userSpaceOnUse"><stop stop-color="#39E6C2"/><stop offset="1" stop-color="#00A98F"/></linearGradient>
+    <filter id="shadow" x="130" y="105" width="380" height="315" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h640v420H0z"/><circle cx="525" cy="91" r="91" fill="#fff" fill-opacity=".2"/><circle cx="100" cy="340" r="115" fill="#FFD34D" fill-opacity=".3"/>
+  <path d="M0 351c103-35 205 6 308 5 126-1 223-43 332-7v71H0v-69Z" fill="#fff" fill-opacity=".2"/>
+  <ellipse cx="320" cy="356" rx="145" ry="23" fill="#6C267D" fill-opacity=".4" filter="url(#shadow)"/>
+  <rect x="234" y="112" width="79" height="45" rx="12" fill="#7C67E8"/><path d="M249 112V91h48v21" fill="#604DD1"/>
+  <rect x="210" y="151" width="126" height="198" rx="33" fill="url(#bottle)" stroke="#fff" stroke-width="7"/>
+  <rect x="230" y="215" width="86" height="77" rx="17" fill="#fff" fill-opacity=".85"/>
+  <path d="M273 232c-8-12-27-7-27 7 0 12 27 29 27 29s27-17 27-29c0-14-19-19-27-7Z" fill="#EF4D83"/>
+  <rect x="362" y="147" width="62" height="42" rx="11" fill="#FFB34D"/><path d="M373 147v-22h40v22" fill="#F09335"/>
+  <rect x="345" y="182" width="97" height="167" rx="28" fill="url(#bottle2)" stroke="#fff" stroke-width="7"/>
+  <rect x="363" y="236" width="61" height="56" rx="15" fill="#fff" fill-opacity=".8"/>
+  <path d="M390 278c-17-12-19-31-9-45 18 4 29 19 25 36 9-16 23-21 37-18-1 18-12 31-35 33" fill="#65C985"/>
+  <path d="m489 117 8 17 19 3-14 12 3 19-16-9-17 9 4-19-14-12 19-3 8-17Z" fill="#FFE45E"/>
+</svg>

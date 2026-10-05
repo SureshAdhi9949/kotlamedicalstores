@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#4169F5"/><stop offset=".55" stop-color="#4960D9"/><stop offset="1" stop-color="#8357EE"/></linearGradient>
+    <linearGradient id="bottle" x1="242" y1="115" x2="385" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#DCEBFF"/></linearGradient>
+    <linearGradient id="cap" x1="265" y1="90" x2="365" y2="145" gradientUnits="userSpaceOnUse"><stop stop-color="#536DFE"/><stop offset="1" stop-color="#20B8E8"/></linearGradient>
+    <linearGradient id="pill" x1="125" y1="295" x2="238" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#FF8AB3"/><stop offset=".5" stop-color="#FF8AB3"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <filter id="shadow" x="150" y="75" width="350" height="340" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h640v420H0z"/>
+  <circle cx="530" cy="92" r="86" fill="#fff" fill-opacity=".16"/><circle cx="106" cy="365" r="112" fill="#54D9D0" fill-opacity=".35"/>
+  <path d="M0 337c102-45 177-20 257 6 108 35 210 36 383-21v98H0v-83Z" fill="#fff" fill-opacity=".18"/>
+  <ellipse cx="320" cy="355" rx="140" ry="26" fill="#172E8C" fill-opacity=".4" filter="url(#shadow)"/>
+  <rect x="256" y="98" width="128" height="54" rx="16" fill="url(#cap)"/>
+  <path d="M276 99V77h88v22" fill="#4260DB"/><rect x="226" y="139" width="188" height="220" rx="38" fill="url(#bottle)" stroke="#fff" stroke-width="8"/>
+  <rect x="251" y="215" width="138" height="88" rx="18" fill="#fff" stroke="#C5DBFF" stroke-width="4"/>
+  <path d="M320 232v54m-27-27h54" stroke="#FF6389" stroke-width="14" stroke-linecap="round"/>
+  <rect x="91" y="282" width="126" height="58" rx="29" transform="rotate(-25 91 282)" fill="url(#pill)" stroke="#fff" stroke-width="6"/>
+  <rect x="426" y="301" width="110" height="52" rx="26" transform="rotate(22 426 301)" fill="url(#pill)" stroke="#fff" stroke-width="6"/>
+  <path d="m487 143 8 18 19 2-14 12 4 19-17-10-16 10 4-19-14-12 19-2 7-18Z" fill="#FFE45E"/>
+</svg>
