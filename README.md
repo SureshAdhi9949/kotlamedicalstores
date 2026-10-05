@@ -903,3 +903,7 @@ Install [Bun](https://bun.sh/) to use the project's lockfile and scripts.
 bun install
 bun run dev
 ```
+
+## Deploy to Render
+
+Push the project to a Git repository, then create a Blueprint in the Render Dashboard and connect that repository. Render reads `render.yaml` to build and start the Node server. After deployment, Render provides the live service URL; add a custom domain from the service settings if needed.
